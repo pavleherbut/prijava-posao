@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+<head>
+<title>Rad sa formularima</title>
+<meta charset="utf-8">
+
+</head>
+<body background=back.jpg>
+    <form  action="https://formsubmit.co/pavleh2005@gmail.com" method="POST" >
+        <label for="input-ime">Ime:</label>
+		<input type="text" name="ime" id="input-ime" required><br><br>
+		 <label for="input-prezime">Prezime:</label>
+		<input type="text" name="prezime" id="input-prezime" required><br><br>
+		 
+		 <label for="">Količnik inteligencije:</label>
+		<input type="number" name="procenat" id="i-procenat"
+		step="1" min="0" max="200" value="50"required><br><br>
+
+        
+		<label for="input-email">E-mail:</label>
+		<input type="email" name="email" id="input-email"required><br><br>
+		
+		<label for="i-phone">Telefon:</label>
+		<input type="tel" name="telefon" id="i-phone"required><br><br>
+	 
+	     <label for="kategorija">Odaberite vozačku kategoriju koju posedujete:</label><br>
+		 <input type="checkbox" name="zaposlen" id="kategorija" value="1">AM<br>
+		  <input type="checkbox" name="zaposlen" id="kategorija" value="1">A<br>
+		   <input type="checkbox" name="zaposlen" id="kategorija" value="1">B<br>
+		    <input type="checkbox" name="zaposlen" id="kategorija" value="1">C<br>
+			 <input type="checkbox" name="zaposlen" id="kategorija" value="1">C<br>
+		
+		  
+		  <label for="input-adresa">Adresa:</label><br>
+		  <textarea rows="6" name="adresa" id="input-adresa" required></textarea><br><br>
+
+             <label for="input-drzava">Drzava:</label>
+			 <select name="drzava" id="input-drzava">
+			  <option value="00001">Srbija</option>
+			   <option value="00001">Makedonija</option>
+			    <option value="00001">Crna Gora</option>
+				 <option value="00001">Bosna i Hervrgovina</option>
+				  <option value="00001">Hrvacka</option>
+				    <option value="00001">Slovenija</option>
+			 <select><br><br>
+			 
+			 <label for="i-okrug">Okrug:</label>
+			 <input name="okrug" id="i-drzava" list="spisak-okruga" required>
+			 <datalist id="spisak-okruga">
+			 <option value="Severnobački okrug">
+			 <option value="Srednjebanatski okrug">
+			 <option value="Severnobanatski okrug">
+			 <option value="Južnobanatski okrug">
+			 <option value="Zapadnobački okrug">
+			 <option value="Južnobački okrug">
+			 <option value=" Sremski okrug">
+			 <option value="Mačvanski okrug">
+			 <option value="Kolubarski okrug">
+			 <option value="Podunavski okrug">
+			 <option value=" Šumadijski okrug ">
+			 <option value=" Kosovski okrug">
+		     </datalist><br><br>
+			 
+			 <label for="i-opseg">Želja za društvenim radom:</label>
+			<input type="range" name="opseg" id="i-opseg" min="10" max="60" step="5"><br><br>
+			 
+			 <button type="submit" ">Pošalji</button>
+			  <button type="reset">Poništi</button>
+			  
+			
+	    </form>
+		
+     </body>
+</html>
